@@ -71,11 +71,11 @@ int main(){
 	};
 
 	if (solveSudoku(grid)) {
-		printf("Cozum bulundu:\n");
+		printf("Solution found:\n");
 		printSudoku(grid);
 	}
 	else {
-		printf("Cozum bulunamadı.\n");
+		printf("No solution found.\n");
 	}
 	return 0;
 }
